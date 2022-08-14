@@ -29,6 +29,12 @@ LANGUAGE ~Polish~
          ~Silver_Staff_of_Aule/tra/english/setup.tra~
          ~Silver_Staff_of_Aule/tra/polish/game.tra~
          ~Silver_Staff_of_Aule/tra/polish/setup.tra~
+LANGUAGE ~French~
+          ~french~
+          ~Silver_Staff_of_Aule/tra/english/game.tra~
+          ~Silver_Staff_of_Aule/tra/english/setup.tra~
+          ~Silver_Staff_of_Aule/tra/french/game.tra~
+          ~Silver_Staff_of_Aule/tra/french/setup.tra~
 
 BEGIN @101
 REQUIRE_PREDICATE GAME_IS ~bgee totsc tutu_totsc bgt~ @106

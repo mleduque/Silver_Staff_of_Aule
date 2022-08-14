@@ -1,0 +1,25 @@
+@0    = ~apparemment en fer~
+@1    = ~apparemment une couche d'argent sur un cœur de fer froid~
+@2    = ~Le Bâton d'Aule
+Ce bâton finement sculpté se trouvait dans le butin pris aux envahisseurs de la Tour de Durlag. Très efficace au combat, il appartenait apparemment à un jeteur de sorts qui aimait être en première ligne. Malgré sa structure interne, apparemment une couche d'argent sur un cœur de fer froid, il pèse à peu près le même poids qu'une arme normale de ce type. Une partie de l'enchantement vient du cuir fixé sur son manche, il s'agit sans doute de la peau d'une créature guerrière. Quand on sait les goûts et les penchants des assaillants de cette Tour, cette peau pourrait bien venir de n'importe quoi... ou n'importe qui.
+
+PARAMÈTRES :
+
+TAC0 : +3, +4 contre les lycanthropes
+Dégâts : 1d6 +3, +4 contre les lycanthropes (contondant)
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 3~
+@3    = ~Type de dégâts :.+[%LNL%%MNL%%WNL%]~
+@4    = ~TAC0 :\(.+[0-9]\)~
+@5    = ~TAC0:\1 (+4 contre les Lycanthropes)~
+@6    = ~Dégâts :\([ 0-9D\+]*[0-9]\).*~
+@7    = ~Dégâts :\1 (+4 contre les Lycanthropes)
+Type de dégâts : contondant~
+@8    = ~argent~
+@9    = ~TAC0.+lycanthropes~
+@10   = ~Dégâts.+lycanthropes~
+@11   = ~Bâton argent d'Aule +3~
